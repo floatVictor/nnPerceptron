@@ -40,7 +40,8 @@ class Particule {
     
     // Increase the size of the rectangle if the score is high
     if(score > 0.95 && random(1)> 0.88) scoreSize += 2;
-    else if(score > 0.7 && random(1)> 0.82) scoreSize ++;
+    else if(score > 0.7 && random(1)> 0.82) scoreSize += .8;
+    else if(score > 0.4 && random(1)> 0.82) scoreSize += .5;
     
     // Draw the rectangle
     rect(x, y, (scoreSize * 3)*scoreSize, (scoreSize * 3)*scoreSize );

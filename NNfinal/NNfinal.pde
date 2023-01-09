@@ -52,7 +52,7 @@ void setup() {
   phase2 = random(-0.5, 0.5);
   
   background(2);
-  size(1600,1000);
+  size(1800,1000);
   colorMode(HSB, 255);
   frameRate(8000);
   noStroke();
